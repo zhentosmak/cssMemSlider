@@ -1,12 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mem Slider</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <input type="radio" name="round" id="slide1" checked />
+    <input type="radio" name="round" id="slide2" />
+    <input type="radio" name="round" id="slide3" />
+    <input type="radio" name="round" id="slide4" />
+    <div class="container">
+      <div class="slider">
+        <div class="slide-1">
+          <div class="slide-img slide-img-1"></div>
+        </div>
+        <div class="slide-2">
+          <div class="slide-img slide-img-2"></div>
+        </div>
+        <div class="slide-3">
+          <div class="slide-img slide-img-3"></div>
+        </div>
+        <div class="slide-4">
+          <div class="slide-img slide-img-4"></div>
+        </div>
+      </div>
+      <div class="slider-text">
+        <span class="slide-text slide-text-1">It took him a couple bytes</span>
+        <span class="slide-text slide-text-2">Programmers in hackathon</span>
+        <span class="slide-text slide-text-3"
+          >You look at the code you wrote a month ago</span
+        >
+        <span class="slide-text slide-text-4"
+          >Open an issue instead of reading documentation</span
+        >
+      </div>
+      <div class="slider-btns">
+        <label for="slide1" class="slide-label-1">
+          <div class="slide"></div>
+        </label>
+        <label for="slide2" class="slide-label-2">
+          <div class="slide"></div>
+        </label>
+        <label for="slide3" class="slide-label-3">
+          <div class="slide"></div>
+        </label>
+
+        <label for="slide4" class="slide-label-4">
+          <div class="slide"></div>
+        </label>
+      </div>
+    </div>
+  </body>
 </html>
